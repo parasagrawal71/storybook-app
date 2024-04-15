@@ -2,15 +2,23 @@
 
 import { Button } from "@mui/material";
 
-export default function ButtonComponent() {
+type ButtonComponentProps = {
+  label: string;
+  bgColor: string;
+};
+
+export default function ButtonComponent({
+  label,
+  bgColor,
+}: ButtonComponentProps) {
   return (
     <Button
-      style={{ border: "1px solid grey" }}
+      style={{ border: "1px solid grey", background: bgColor }}
       onClick={() => {
         alert("Button clicked");
       }}
     >
-      Click Me
+      {label || `Click Me`}
     </Button>
   );
 }
