@@ -1,0 +1,5 @@
+nvm ls
+nvm which
+Create a .nvmrc file with version number inside it
+nvm install v18.17.0
+node -v
