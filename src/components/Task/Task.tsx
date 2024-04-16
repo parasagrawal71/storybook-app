@@ -1,6 +1,6 @@
 import React from "react";
 
-type TaskProps = {
+export type TaskProps = {
   task: {
     id: string;
     title: string;
