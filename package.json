@@ -14,6 +14,7 @@
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/material": "^5.15.15",
+    "@storybook/addon-a11y": "^8.0.8",
     "next": "14.2.1",
     "react": "^18",
     "react-dom": "^18"
