@@ -41,6 +41,7 @@ export default function Task(props: TaskProps) {
           readOnly={true}
           name="title"
           placeholder="Input title"
+          style={{ fontSize: 18 }}
         />
       </label>
 
